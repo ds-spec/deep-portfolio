@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Game from "./components/Game";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
@@ -10,7 +11,11 @@ function App() {
         <div className="w-full h-full max-w-4xl px-4">
           <Navbar />
           {/* <Home /> */}
-          <Game />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/work" element={<></>} />
+            <Route path="/game" element={<Game />} />
+          </Routes>
         </div>
       </div>
     </>
