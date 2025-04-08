@@ -70,13 +70,16 @@ const Home = () => {
           <span className="text-[#70D935]">*</span> projects
         </h1>
         <div className="flex flex-col justify-center mt-8">
-          <h3 className="text-white ">task management system</h3>
-          <h4 className="text-[#a1a1aa] text-xs">
-            front-end developer (sept 2021 – present)
-          </h4>
-          <h5 className="text-[#a1a1aa] text-xs">
-            building webapps from scratch
+          <h3 className="text-white ">
+            task management system{" "}
+            <span className="text-[#a1a1aa]">(inprogress)</span>
+          </h3>
+          <h5 className="text-white text-sm">
+            building a real-time task assignment system with
           </h5>
+          <h4 className="text-[#a1a1aa] text-xs mt-2">
+            react (frontend), tailwind css (ui), firebase (auth & backend)
+          </h4>
         </div>
       </div>
     </div>
